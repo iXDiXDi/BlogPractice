@@ -28,3 +28,5 @@
 -   posts: массив post: id / title / imageUrl / publishedAt / commentsCount
 -   post: id / title / imageUrl / content / publishedAt / comments: массив coment: id / author / content / publishedAt
 -   users: массив user: id / login / registeredAt / role
+
+json-server --watch src/db.json --port 3005
