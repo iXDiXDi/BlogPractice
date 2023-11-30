@@ -33,7 +33,7 @@ const ControlPanelContainer = ({ className }) => {
 				<StyledLink to="/login">Войти</StyledLink>
 			</RightAligned>
 			<RightAligned>
-				<StyledButton href="" onClick={() => navigate(-1)}>
+				<StyledButton onClick={() => navigate(-1)}>
 					<Icon id="fa-backward" margin="10px 0 0 0" />
 				</StyledButton>
 				<Link to="/post">
